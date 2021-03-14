@@ -1,0 +1,21 @@
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double x = 22.31, y = 13.17, result;
+    result = fdim(x, y);                                  //  x-y if x > y
+                                                          //  0 if x ≤ y
+    cout << "fdim(x, y) = " << result << endl;
+
+
+		
+    return 0;
+}
+
+output :
+fdim(x, y) = 9.14
+
