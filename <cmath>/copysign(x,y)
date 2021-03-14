@@ -1,0 +1,21 @@
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+                           //x= 34.15(it takes thevaue of x)
+int main()                 //y= -13.0(it takes the sign of y) 
+{
+    double x , y , result;
+    cout<<"enter the value of x "<<endl;
+    cin>>x;
+    cout<<"enter the value of y"<<endl;
+    cin>>y;
+    result = copysign(x, y);
+    cout << "copysign(" << x << "," << y << ") = " << result << endl;
+    
+    return 0;
+}
+
+output :
