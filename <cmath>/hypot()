@@ -1,0 +1,19 @@
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	double x = 2, y = 2, result;         //  h = √(x2+y2
+	result = hypot(x, y);                // it can also execute for x,y,z
+	cout << "hypot(x, y) = " << result << endl;
+	
+
+
+	return 0;
+}
+
+output :
+hypot(x, y) = 2.82843
