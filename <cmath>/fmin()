@@ -1,0 +1,20 @@
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    double x = 56.13, result;        //it find the xminimum value 
+    double y = 89;
+
+    result = fmin(x, y);
+    cout << "fmin(x, y) = " << result << endl;
+
+    return 0;
+}
+
+output :
+fmin(x, y) = 56.13
