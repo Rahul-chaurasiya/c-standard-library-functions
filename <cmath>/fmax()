@@ -1,0 +1,20 @@
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()                       // it takes the maximum value
+{
+    double x = 56.13, result;
+    double y = 89;
+
+    result = fmax(x, y);
+    cout << "fmin(x, y) = " << result << endl;
+
+    return 0;
+}
+
+output :
+fmin(x, y) = 89
